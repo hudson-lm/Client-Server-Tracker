@@ -1,5 +1,5 @@
 # Client-Server-Tracker
-This project implements a client for a TCP-based TODO tracker server. It supports ADD, LIST, REMOVE, and MARK commands to manage tasks with unique IDs and statuses. The client formats requests, handles multi-line input, and processes server responses.
+This project implements a client for a TCP-based tracker server. It supports ADD, LIST, REMOVE, and MARK commands to manage tasks with unique IDs and statuses. The client formats requests, handles multi-line input, and processes server responses.
 
 ## How to Run
 
@@ -21,7 +21,7 @@ This project implements a client for a TCP-based TODO tracker server. It support
     ```bash
     python3 TrackerClient.py
     ```
-*   Upon a successful connection, you will see: `"Connected to TodoTracker Server"`
+*   Upon a successful connection, you will see: `"Connected to Tracker Server"`
 
 ### 3. Use the Application
 You can now execute commands (`ADD`, `LIST`, `REMOVE`, `MARK`, `QUIT`) from the client terminal to interact with the server.
